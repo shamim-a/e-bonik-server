@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "shamim-a",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
