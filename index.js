@@ -24,7 +24,7 @@ const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology:
 client.connect(err => {
     // console.log("connection error", err)
   const productsCollection = client.db("ebonikdb").collection("products");
-  const ordersCollection = client.db("groceryList").collection("orders");
+  const ordersCollection = client.db("ebonikdb").collection("orders");
 //   console.log("Database connected");
 
   // inserting product to data base
